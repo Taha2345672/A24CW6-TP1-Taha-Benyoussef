@@ -1,15 +1,14 @@
-/* Corps de la page */
+
 body {
-    font-family: 'Roboto', Arial, sans-serif; /* Application d'une police moderne */
-    background-color: #f9f9f9;
+    font-family: 'Roboto', Arial, sans-serif; 
     margin: 0;
     padding: 20px;
 }
 
-/* Styles pour les titres */
+
 h1, h2 {
     color: #333;
-    font-weight: 700; /* Poids gras pour les titres */
+    font-weight: 700; 
 }
 
 h1 {
@@ -23,7 +22,6 @@ h2 {
     font-weight: 500;
 }
 
-/* Input de recherche */
 input.form-control {
     width: 100%;
     padding: 10px;
@@ -33,7 +31,7 @@ input.form-control {
     font-family: 'Roboto', Arial, sans-serif;
 }
 
-/* Boutons */
+
 button {
     background-color: #28a745;
     color: white;
@@ -46,24 +44,24 @@ button {
 
 button.btn-info {
     background-color: #17a2b8;
-    padding: 6px 10px; /* Bouton plus petit */
+    padding: 6px 10px; 
 }
 
 button:hover {
-    background-color: #218838; /* Effet au survol */
+    background-color: #218838; 
 }
 
 button.btn-info:hover {
     background-color: #138496;
 }
 
-/* Liste des albums et des chansons */
+
 ul.list-group {
     margin-top: 10px;
-    padding-left: 0; /* Supprime l'indentation des listes */
+    padding-left: 0; 
 }
 
-/* Style pour chaque élément de la liste */
+
 li.list-group-item {
     display: flex;
     justify-content: space-between;
@@ -77,10 +75,10 @@ li.list-group-item {
 }
 
 li.list-group-item:hover {
-    background-color: #f1f1f1; /* Légère surbrillance au survol */
+    background-color: #f1f1f1; 
 }
 
-/* Informations sur l'album */
+
 .album-info {
     display: flex;
     align-items: center;
@@ -89,16 +87,16 @@ li.list-group-item:hover {
 .album-info img {
     margin-right: 15px;
     border-radius: 4px;
-    width: 100px; /* Taille uniforme des images */
+    width: 100px; 
     height: 100px;
-    object-fit: cover; /* Ajuste l'image pour qu'elle garde ses proportions */
+    object-fit: cover; 
 }
 
-/* Informations sur les chansons */
+
 .chansons-info {
     flex-grow: 1;
-    max-width: 50%; /* Limite la largeur pour éviter que la liste des chansons ne prenne trop de place */
-    margin-left: 20px; /* Espacement à gauche pour séparer des albums */
+    max-width: 50%; 
+    margin-left: 20px; 
 }
 
 .chansons-info h3 {
@@ -108,10 +106,10 @@ li.list-group-item:hover {
 }
 
 .chansons-info ul.list-group {
-    margin-top: 0; /* Supprime le margin entre le titre et les chansons */
+    margin-top: 0; 
 }
 
-/* Style des chansons */
+
 .chansons-info li.list-group-item {
     padding: 8px 12px;
     background-color: #f9f9f9;
